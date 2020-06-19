@@ -24,7 +24,7 @@ namespace BlazorCleanCode.Client.Counter.Pages
 
         private void OpenExternalLink()
         {
-            UrlOpener.OpenExternalLink(JSRuntime, "test");
+            UrlOpener.OpenExternalLink(JSRuntime, "https://bracketshow.com");
         }
     }
 }
