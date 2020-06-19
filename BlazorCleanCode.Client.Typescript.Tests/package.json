@@ -1,0 +1,21 @@
+{
+  "name": "blazor-clean-code.client.typescript.tests",
+  "version": "0.0.0",
+  "description": "BlazorCleanCode.Client.Typescript.Tests",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^8.0.14",
+    "jest": "^26.0.1",
+    "jest-editor-support": "^27.2.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}

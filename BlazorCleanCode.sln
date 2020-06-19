@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCleanCode.Server", "BlazorCleanCode\Server\BlazorCleanCode.Server.csproj", "{22E1B475-560A-471E-B4E7-92B125DD776D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCleanCode.Client", "BlazorCleanCode\Client\BlazorCleanCode.Client.csproj", "{EA9DD1CF-AB38-433A-969A-72F8AD02EFD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCleanCode.Shared", "BlazorCleanCode\Shared\BlazorCleanCode.Shared.csproj", "{4BFDC9CD-EBC0-4D1A-9567-9D3ED7DFBB9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCleanCode.Client.Typescript", "BlazorCleanCode.Client.Typescript\BlazorCleanCode.Client.Typescript.csproj", "{9455DC90-032F-4EE5-ACC6-FB63C1E2B6AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C5C21E4-D596-4B0F-A792-C3D3EB002062}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BlazorCleanCode.Architecture", "BlazorCleanCode.Architecture\BlazorCleanCode.Architecture.modelproj", "{70D545C3-7603-4680-A645-530D6509D24F}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BlazorCleanCode.Client.Typescript.Tests", "BlazorCleanCode.Client.Typescript.Tests\BlazorCleanCode.Client.Typescript.Tests.njsproj", "{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E1B475-560A-471E-B4E7-92B125DD776D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E1B475-560A-471E-B4E7-92B125DD776D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E1B475-560A-471E-B4E7-92B125DD776D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E1B475-560A-471E-B4E7-92B125DD776D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9DD1CF-AB38-433A-969A-72F8AD02EFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9DD1CF-AB38-433A-969A-72F8AD02EFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9DD1CF-AB38-433A-969A-72F8AD02EFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9DD1CF-AB38-433A-969A-72F8AD02EFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFDC9CD-EBC0-4D1A-9567-9D3ED7DFBB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDC9CD-EBC0-4D1A-9567-9D3ED7DFBB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFDC9CD-EBC0-4D1A-9567-9D3ED7DFBB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFDC9CD-EBC0-4D1A-9567-9D3ED7DFBB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9455DC90-032F-4EE5-ACC6-FB63C1E2B6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9455DC90-032F-4EE5-ACC6-FB63C1E2B6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9455DC90-032F-4EE5-ACC6-FB63C1E2B6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9455DC90-032F-4EE5-ACC6-FB63C1E2B6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D545C3-7603-4680-A645-530D6509D24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D545C3-7603-4680-A645-530D6509D24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D545C3-7603-4680-A645-530D6509D24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D545C3-7603-4680-A645-530D6509D24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94171953-1F61-41D2-BA6D-C04D1F135422}
+	EndGlobalSection
+EndGlobal

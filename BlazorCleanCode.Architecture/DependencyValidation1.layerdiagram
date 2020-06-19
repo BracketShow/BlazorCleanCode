@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5503dfcb-a3b3-4081-8a1b-d69799dda3e5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="a1971d1c-886f-42fa-b1e7-407c11c3ef08" name="BlazorCleanCode.Client">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="4e8b9a8a-d20f-4ab9-b5e3-7918547fd856" direction="Forward">
+          <layerMoniker Id="44d5ffe7-4b25-4f6d-9b4e-176cf5e7456d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="62739291-7a92-4796-9cc9-3a2ebdd02db0" name="BlazorCleanCode.Client">
+          <ArtifactNode Label="BlazorCleanCode.Client" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Source/BracketShow/BlazorCleanCode/src/BlazorCleanCode/BlazorCleanCode/Client/BlazorCleanCode.Client.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BlazorCleanCode.Client)" Label="BlazorCleanCode.Client.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="8606c89f-bdb1-41b9-87bc-cb27b842aaf8" name="BlazorCleanCode.Server">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1322fa0f-af86-4a02-867a-b0cd2b3db801" direction="Forward">
+          <layerMoniker Id="44d5ffe7-4b25-4f6d-9b4e-176cf5e7456d" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="21712389-4bd0-4c1c-9570-69e97dc64176" direction="Forward">
+          <layerMoniker Id="a1971d1c-886f-42fa-b1e7-407c11c3ef08" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="877c6c4e-614c-4983-85d1-3006324cbb34" name="BlazorCleanCode.Server">
+          <ArtifactNode Label="BlazorCleanCode.Server" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Source/BracketShow/BlazorCleanCode/src/BlazorCleanCode/BlazorCleanCode/Server/BlazorCleanCode.Server.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BlazorCleanCode.Server)" Label="BlazorCleanCode.Server.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="44d5ffe7-4b25-4f6d-9b4e-176cf5e7456d" name="BlazorCleanCode.Shared">
+      <references>
+        <reference Id="5f608521-b7f4-4831-8ce9-6f40240c01b4" name="BlazorCleanCode.Shared">
+          <ArtifactNode Label="BlazorCleanCode.Shared" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Source/BracketShow/BlazorCleanCode/src/BlazorCleanCode/BlazorCleanCode/Shared/BlazorCleanCode.Shared.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BlazorCleanCode.Shared)" Label="BlazorCleanCode.Shared.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
