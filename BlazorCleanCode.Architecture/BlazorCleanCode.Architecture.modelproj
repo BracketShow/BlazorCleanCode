@@ -34,6 +34,10 @@
     </Validate>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BlazorCleanCode.Server.Weather\BlazorCleanCode.Server.Weather.csproj">
+      <Name>BlazorCleanCode.Server.Weather</Name>
+      <Project>{0eb0676e-adae-40ca-b8ac-887e3f724ee9}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\BlazorCleanCode\Client\BlazorCleanCode.Client.csproj">
       <Name>BlazorCleanCode.Client</Name>
       <Project>{ea9dd1cf-ab38-433a-969a-72f8ad02efd9}</Project>

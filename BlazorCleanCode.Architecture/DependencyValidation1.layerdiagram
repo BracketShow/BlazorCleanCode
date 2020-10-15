@@ -28,6 +28,9 @@
         <dependencyFromLayerToLayer Id="21712389-4bd0-4c1c-9570-69e97dc64176" direction="Forward">
           <layerMoniker Id="a1971d1c-886f-42fa-b1e7-407c11c3ef08" />
         </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="fb9220ff-8f41-4872-b9f7-b7a7c6c9e311" direction="Forward">
+          <layerMoniker Id="524f2c6c-9045-4860-b880-77343aebbd1b" />
+        </dependencyFromLayerToLayer>
       </dependencyToLayers>
       <references>
         <reference Id="877c6c4e-614c-4983-85d1-3006324cbb34" name="BlazorCleanCode.Server">
@@ -50,6 +53,19 @@
           </ArtifactNode>
           <ExpandedNode Id="(Assembly=BlazorCleanCode.Shared)" Label="BlazorCleanCode.Shared.dll" Category="CodeSchema_Assembly">
             <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="524f2c6c-9045-4860-b880-77343aebbd1b" name="BlazorCleanCode.Server.Weather">
+      <references>
+        <reference Id="31860edb-b5f8-41c0-acd6-b7f89e4e5869" name="BlazorCleanCode.Server.Weather">
+          <ArtifactNode Label="BlazorCleanCode.Server.Weather" Category="CodeSchema_Project" Id="(Assembly=&quot;$(PersonalUri)/Source/BracketShow/BlazorCleanCode/src/BlazorCleanCode/BlazorCleanCode.Server.Weather/BlazorCleanCode.Server.Weather.csproj&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BlazorCleanCode.Server.Weather)" Label="BlazorCleanCode.Server.Weather.dll" Category="CodeSchema_Assembly">
             <LinkCategory Ref="Produces" />
             <LinkCategory Ref="Represents" />
           </ExpandedNode>

@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.0",
-    "@types/node": "^8.0.14",
     "jest": "^26.0.1",
     "jest-editor-support": "^27.2.0",
     "typescript": "^3.2.2"

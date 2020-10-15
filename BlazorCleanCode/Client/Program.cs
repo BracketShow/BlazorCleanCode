@@ -1,6 +1,7 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using BlazorCleanCode.Client.Typescript;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Fluxor;
@@ -17,6 +18,7 @@ namespace BlazorCleanCode.Client
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            builder.Services.AddScoped<IUrlOpener, UrlOpener>();
             builder.Services.AddTransient<IWeatherService, WeatherService>();
 
             var currentAssembly = typeof(Program).Assembly;

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
+using BlazorCleanCode.Client.Typescript;
 
 namespace BlazorCleanCode.Server
 {
@@ -25,7 +26,6 @@ namespace BlazorCleanCode.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -57,39 +57,6 @@ namespace BlazorCleanCode.Server
                 endpoints.MapControllers();
                 endpoints.MapFallbackToFile("index.html");
             });
-        }
-    }
-
-    public class Speaker
-    {
-        public string Name { get; set; }
-
-        public string Email { get; set; }
-
-        public string[] Roles { get; set; }
-
-        public string Awards { get; set; }
-    }
-
-    public class Truc
-    {
-        public async void TrucTest()
-        {
-            var speaker = new Speaker
-            {
-                Name = "Bruno Barrette",
-                Email = "bbarrette@donetechno.com",
-                Roles = new [] { "Developer", "Team Lead", "Bracket Show host" },
-                Awards = await GetAwardsAsync()
-            };
-
-            Console.WriteLine(speaker.Name);
-        }
-
-        private async Task<string> GetAwardsAsync()
-        {
-            await Task.Delay(1);
-            return "";
         }
     }
 }

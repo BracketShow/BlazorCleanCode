@@ -3,11 +3,19 @@ using System.Threading.Tasks;
 
 namespace BlazorCleanCode.Client.Typescript
 {
-    public class UrlOpener
+    public class UrlOpener : IUrlOpener
     {
-        public static ValueTask OpenExternalLink(IJSRuntime jsRuntime, string url)
+        private readonly IJSRuntime _jsRuntime;
+
+        public UrlOpener(IJSRuntime jsRuntime)
         {
-            return jsRuntime.InvokeVoidAsync("UrlOpenerService.openExternalLink", url);
+            _jsRuntime = jsRuntime;
+        }
+
+        public ValueTask OpenExternalLink(string url)
+        {
+            return _jsRuntime.InvokeVoidAsync(
+                "UrlOpenerService.openExternalLink", url);
         }
     }
 }

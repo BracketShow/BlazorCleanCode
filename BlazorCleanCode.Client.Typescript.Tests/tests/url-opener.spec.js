@@ -13,10 +13,8 @@ describe('UrlOpenerService', () => {
     });
     describe('@load', () => {
         it('should add the service in the window', () => {
-            //spyOn(window, 'Object').and.callThrough();
             url_opener_service_1.UrlOpenerService.load();
             expect(window['UrlOpenerService']).toBeInstanceOf(url_opener_service_1.UrlOpenerService);
-            //expect(window['UrlOpenerService']).toHaveBeenCalled();
         });
     });
 });

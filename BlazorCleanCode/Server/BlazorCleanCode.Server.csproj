@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BlazorCleanCode.Server.Weather\BlazorCleanCode.Server.Weather.csproj" />
     <ProjectReference Include="..\Client\BlazorCleanCode.Client.csproj" />
     <ProjectReference Include="..\Shared\BlazorCleanCode.Shared.csproj" />
   </ItemGroup>

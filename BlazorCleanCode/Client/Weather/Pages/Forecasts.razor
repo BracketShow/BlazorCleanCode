@@ -33,3 +33,16 @@ else
         </tbody>
     </table>
 }
+
+
+<EditForm Model="newForecast" OnValidSubmit="SubmitForecast">
+    <FluentValidationValidator />
+    <ValidationSummary />
+    
+    <div>
+        <label for="summary"></label>
+        <InputText @bind-Value="newForecast.Summary" id="summary" />
+    </div>
+</EditForm>
+
+

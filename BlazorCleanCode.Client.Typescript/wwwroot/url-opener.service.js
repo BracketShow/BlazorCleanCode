@@ -5,10 +5,11 @@ var UrlOpenerService = /** @class */ (function () {
     function UrlOpenerService() {
     }
     UrlOpenerService.prototype.openExternalLink = function (url) {
-        window.open(url, '_blank');
+        window.open(url, "_blank");
     };
     UrlOpenerService.load = function () {
-        window['UrlOpenerService'] = new UrlOpenerService();
+        window['UrlOpenerService'] =
+            new UrlOpenerService();
     };
     return UrlOpenerService;
 }());

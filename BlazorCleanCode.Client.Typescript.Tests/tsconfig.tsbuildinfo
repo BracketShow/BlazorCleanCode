@@ -117,7 +117,7 @@
         "affectsGlobalScope": false
       },
       "./tests/url-opener.spec.ts": {
-        "version": "c3ba40d2507215850618bf70fa0fb3b9435b49283c8a66215f8f950622939376",
+        "version": "ea0a3998dd29e2f6a7e2079d0eb0ab890636136fce925aff67dc7325ac53f9ec",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },

@@ -62,7 +62,7 @@
         "affectsGlobalScope": true
       },
       "./url-opener.service.ts": {
-        "version": "3d8a3f4f3fc0c84819b0e0a261f1b525575cbed3df1b0672888f4dd6e88875c8",
+        "version": "1ef89c4873ed59f9fb23205b3db02b556f6dd3ce282d83d6647161396b1a1371",
         "signature": "69f125789405d49232065400a856054f236a5908646375030711c815ca038266",
         "affectsGlobalScope": false
       }

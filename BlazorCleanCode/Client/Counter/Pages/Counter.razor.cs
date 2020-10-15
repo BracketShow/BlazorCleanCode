@@ -6,25 +6,20 @@ using Microsoft.JSInterop;
 
 namespace BlazorCleanCode.Client.Counter.Pages
 {
+
     public partial class Counter
     {
-        [Inject]
-        private IState<CounterState> CounterState { get; set; }
+        [Inject] private IState<CounterState> CounterState { get; set; }
 
-        [Inject]
-        public IDispatcher Dispatcher { get; set; }
+        [Inject] private IDispatcher Dispatcher { get; set; }
 
-        [Inject]
-        public IJSRuntime JSRuntime { get; set; }
+        [Inject] private IUrlOpener UrlOpener { get; set; }
 
-        private void IncrementCount()
-        {
-            Dispatcher.Dispatch(new IncrementCounterAction());
-        }
+        private void IncrementCount() 
+            => Dispatcher.Dispatch(new IncrementCounterAction());
 
-        private void OpenExternalLink()
-        {
-            UrlOpener.OpenExternalLink(JSRuntime, "https://bracketshow.com");
-        }
+        private void OpenExternalLink() 
+            => UrlOpener.OpenExternalLink("https://bracketshow.com");
     }
+
 }

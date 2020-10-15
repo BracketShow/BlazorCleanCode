@@ -20,6 +20,12 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BlazorCleanCode.Architectur
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BlazorCleanCode.Client.Typescript.Tests", "BlazorCleanCode.Client.Typescript.Tests\BlazorCleanCode.Client.Typescript.Tests.njsproj", "{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BlazorTypescript.Client.Typescript.Tests", "BlazorTypescript.Client.Typescript.Tests\BlazorTypescript.Client.Typescript.Tests.njsproj", "{B61BBDF4-DAB2-4693-B50D-7DD78CE972F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCleanCode.Server.Weather", "BlazorCleanCode.Server.Weather\BlazorCleanCode.Server.Weather.csproj", "{0EB0676E-ADAE-40CA-B8AC-887E3F724EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCleanCode.Server.Weather.Tests", "BlazorCleanCode.Server.Weather.Tests\BlazorCleanCode.Server.Weather.Tests.csproj", "{4EE9A5B9-2339-4B8E-9D88-C6D867B1CB61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +56,18 @@ Global
 		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E6ED897-E2DE-4EF5-B716-A6A71DD58FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61BBDF4-DAB2-4693-B50D-7DD78CE972F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61BBDF4-DAB2-4693-B50D-7DD78CE972F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61BBDF4-DAB2-4693-B50D-7DD78CE972F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61BBDF4-DAB2-4693-B50D-7DD78CE972F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB0676E-ADAE-40CA-B8AC-887E3F724EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB0676E-ADAE-40CA-B8AC-887E3F724EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB0676E-ADAE-40CA-B8AC-887E3F724EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB0676E-ADAE-40CA-B8AC-887E3F724EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE9A5B9-2339-4B8E-9D88-C6D867B1CB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE9A5B9-2339-4B8E-9D88-C6D867B1CB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE9A5B9-2339-4B8E-9D88-C6D867B1CB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE9A5B9-2339-4B8E-9D88-C6D867B1CB61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
